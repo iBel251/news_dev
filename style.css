@@ -9,9 +9,9 @@ body{
 
 button{
     border: none;
-    background-color: #EF6C00;
+    background-color: black;
     padding: 10px;
-    color: white;
+    color: #D6BC65;
 }
 
 a{
@@ -24,25 +24,31 @@ img{
 
 header{
     display: flex;
-    background-color: #242E3F;
+    background-color: black;
     height: fit-content;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
+    padding: 0;
 }
 
 .navigation{
     display: flex;
+    background-image: url("images/logo.png");
+    background-size: 30%;
+    background-position: top 45% left -5%;
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100vw;
 }
 
 .line1{
-    
-    border: 1px solid black;
-    margin: 10px 10px;
-    width: 95vw;
+    display: flex;
+    justify-self: flex-end;
+    border: 0.5px solid white;
+    width: 70vw;
+    margin-left: 80px;
 }
 
 .links-container{
@@ -53,14 +59,15 @@ header{
     padding: 0 10px;
     width: 65vw;
     align-items: center;
+    margin: 10px 0 10px 80px;
 }
 
 .logo{
+    min-height: 50px;
     display: flex;
     width: 30vw;
     height: fit-content;
     justify-content: center;
-    padding-left: 30px;
 }
 
 .logo img{
@@ -71,20 +78,25 @@ header{
 
 .links-container a{
     text-decoration: none;
-    color: #EF6C00;
+    color: #D6BC65;
     font-weight: 700, bold;
     font-family: 'Courier New', Courier, monospace;
     size: 32px;
 }
 
 .active{
-    border-bottom: 2px solid #EF6C00;
+    border-bottom: 2px solid #D6BC65;
 }
 
 .date-display{
     width: 100vw;
     text-align: center;
-    color: #EF6C00;
+    color: #D6BC65;
+}
+
+.date-display .date{
+    font-size: 42px;
+    -webkit-text-stroke: 1px black;
 }
 
 .headline img{
@@ -92,7 +104,13 @@ header{
 }
 
 .headline{
-    text-align: center;
+    text-align: left;
+}
+
+.headline h2{
+    text-decoration: underline .5px;
+    text-underline-offset: 2px;
+    margin-left: 10px;
 }
 
 .headline p{
@@ -109,11 +127,17 @@ header{
 .headline .date{
     text-align: left;
     margin: 10px;
+    color: #D6BC65;
+}
+
+.line2{
+    border: 1px solid #D6BC65;
+    margin: 10px;
 }
 
 .links1{
     margin-top: 10px;
-    color: #EF6C00;
+    color: #D6BC65;
 }
 
 .news-cards{
@@ -127,3 +151,31 @@ header{
     margin-right: 10px;
 }
 
+.cards-big{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.cards-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 240px;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.cards-big h2{
+    background-color: white;
+    opacity: 0.6;
+    padding-left: 10px;
+}
+
+.c1{
+    background-image: url("images/placeholder3.jpg");
+}
+
+.c2{
+    background-image: url("images/placeholder4.jpg");
+}
