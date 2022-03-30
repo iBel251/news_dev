@@ -158,9 +158,9 @@ header{
 }
 
 .cards-img{
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 240px;
+    height: 230px;
     display: flex;
     align-items: flex-end;
     margin: 10px 0;
@@ -170,6 +170,8 @@ header{
     background-color: white;
     opacity: 0.6;
     padding-left: 10px;
+    font-size: 20px;
+    line-height: 1;
 }
 
 .c1{
