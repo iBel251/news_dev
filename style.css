@@ -57,12 +57,19 @@ header{
 .site-name{
     color: #D6BC65;
     position: absolute;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 700;
     right: 0;
-    width: 80vw;
+    width: 85vw;
     margin-right: 30px;
     text-align: center;
+}
+
+.site-name a{
+    font-size: 38px;
+    background-color: #D6BC65;
+    border-radius: 5px;
+    opacity: 0.9;
 }
 
 .site-name span{
