@@ -59,8 +59,9 @@ header{
     position: absolute;
     font-size: 46px;
     font-weight: 700;
-    right: auto;
-    left: 120px;
+    right: 0;
+    width: 70vw;
+    margin-right: 15px;
 }
 
 .site-name span{
