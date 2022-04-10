@@ -1,16 +1,16 @@
 <section class="footer-sec">
     <ul class="footer-list">
         <li>
-            <a href="">ስለ አኛ</a>
+            <a href="">About Us</a>
         </li>
         <li>
-            <a href="">የአጠቃቀም ደንብ</a>
+            <a href="">Terms of Use</a>
         </li>
         <li>
-            <a href="">ፕራይቬሲ ፖሊሲ</a>
+            <a href="">Privacy Policy</a>
         </li>
         <li>
-            <a href="">ያናግሩን</a>
+            <a href="">Contact Us</a>
         </li>
     </ul>
     <div class="line2"></div>
@@ -36,10 +36,14 @@
             </li>
         </ul>
     </div>
+    <div class="logo-footer">
+        <img src="images/logo.png" alt="">
+    </div>
 </section>
 
 <style>
     .footer-sec{
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -80,7 +84,8 @@
         flex-direction: column;
         justify-content: flex-end;
         text-align: center;
-        font-size: 14px;
+        color: rgb(162, 161, 161);
+        font-size: 12px;
         order: 2;
     }
 
@@ -92,11 +97,25 @@
     }
 
     .footer-icons img{
-        height: 30px;
+        height: 20px;
         margin: 10px;
     }
 
     .footer .line2{
         margin: 0 10px;
+    }
+
+    .logo-footer{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: -20px;
+    }
+
+    .logo-footer img{
+        max-width: 150px;
+        padding: 0;
+        box-shadow: none;
+        display: block;
     }
 </style>
