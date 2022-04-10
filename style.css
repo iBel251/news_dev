@@ -60,8 +60,9 @@ header{
     font-size: 46px;
     font-weight: 700;
     right: 0;
-    width: 70vw;
-    margin-right: 15px;
+    width: 80vw;
+    margin-right: 30px;
+    text-align: center;
 }
 
 .site-name span{
@@ -126,11 +127,17 @@ header{
     width: 100vw;
     text-align: center;
     color: #D6BC65;
+    margin-bottom: 5px;
 }
 
 .date-display .date{
     font-size: 32px;
-    text-shadow: 0 2px 4px black;
+    text-shadow: 0 2px 2px black;
+}
+
+.date-display h1{
+    font-size: 32px;
+    text-shadow: 0 2px 2px black;
 }
 
 .headline img{
