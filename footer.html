@@ -76,6 +76,7 @@
         margin: 10px 20px;
         font-size: 14px;
         color: #D6BC65;
+        text-align: center;
     }
 
     .footer-sec p{
@@ -108,13 +109,28 @@
         position: absolute;
         padding: 0;
         margin: 0;
-        top: -20px;
+        top: 10px;
+        left: 10px;
     }
 
     .logo-footer img{
-        max-width: 150px;
+        max-width: 70px;
         padding: 0;
         box-shadow: none;
         display: block;
+    }
+    @media (min-width: 1000px) {
+        .logo-footer {
+            width: 83%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-footer{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 0px;
+    }
     }
 </style>
