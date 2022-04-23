@@ -81,7 +81,7 @@
         position: absolute;
         font-size: 40px;
         font-weight: 700;
-        left: 80px;
+        left: 40%;
         width: 150px;
     }
     
@@ -153,6 +153,12 @@
         border-bottom: 2px solid #D6BC65;
     }
     
+    .page-name{
+        font-size: 28px;
+        text-shadow: 0 1.5px 2px black;
+        color: #D6BC65;
+    }
+    
     .date-display{
         width: 100vw;
         text-align: center;
@@ -162,12 +168,12 @@
     
     .date-display .date{
         font-size: 32px;
-        text-shadow: 0 2px 2px black;
+        text-shadow: 0 1.2px 2px black;
     }
     
     .date-display h1{
         font-size: 28px;
-        text-shadow: 0 2px 2px black;
+        text-shadow: 0 1.2px 2px black;
     }
     
     .headline img{
@@ -225,7 +231,7 @@
         width: 40%;
         margin-right: 10px;
     }
-    
+
     .cards-big{
         display: flex;
         flex-direction: column;
@@ -243,6 +249,7 @@
 
     .cards-img-container {
         position: relative;
+        margin: 4px auto;
     }
 
     .cards-big img {
@@ -254,12 +261,25 @@
         position: absolute;
         background-color: white;
         border: 3px solid #D6BC65;
-        opacity: 0.8;
+        opacity: 0.7;
+        padding-left: 10px;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0;
+    }
+    
+    .asgerami-guday h2{
+        bottom: 0;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border: none;
+        opacity: 0.7;
         padding-left: 10px;
         font-size: 20px;
         line-height: 25px;
     }
-    
+
     .c1{
         background-image: url("images/placeholder3.jpg");
     }
@@ -465,7 +485,7 @@
     
     .page-name{
         font-size: 28px;
-        text-shadow: 0 2px 2px black;
+        text-shadow: 0 1.5px 2px black;
         color: #D6BC65;
     }
     
@@ -597,8 +617,21 @@
         padding-left: 10px;
         font-size: 20px;
         line-height: 25px;
+        margin: 0;
     }
     
+    .asgerami-guday h2{
+        bottom: 0;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border: none;
+        opacity: 0.7;
+        padding-left: 10px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
     .c1{
         background-image: url("images/placeholder3.jpg");
     }
