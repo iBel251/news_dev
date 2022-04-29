@@ -8,6 +8,8 @@
     src: url(fonts/yigezubisratgothic.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Serif+Ethiopic:wght@200&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -19,21 +21,43 @@ li {
     margin: 5px auto;
 }
 
+p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: "Noto Serif Ethiopic";
+}
+
+h3,
+h2 {
+    margin-top: 20px;
+}
 .news {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px auto;
+    margin: 0 auto 15px auto;
+    background-color: white;
+    width: 100vw;
 }
 
 .news * {
     width: 95%;
+    max-width: 700px;
     margin: 5px 0;
 }
 
 .multiline {
     white-space:pre-line;
     width: 90%;
+}
+
+.teyayaz-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    background-color: white;
+    width: 100vw;
 }
 
 @media (max-width: 1000px){    
@@ -212,10 +236,7 @@ li {
 }
 
 @media (min-width: 1000px) {
-    *:not(.window) {
-        max-width: ;
-    }
-
+    
     section:not(.footer-sec) {
         max-width: 1000px;
     }
@@ -254,7 +275,8 @@ li {
         height: fit-content;
         align-items: center;
         justify-content: center;
-        padding: 35px 0 0;        
+        padding: 0; 
+        margin-top: 35px;
     }
     
     .navigation{
@@ -268,11 +290,11 @@ li {
 
     .navigation::after {
         content: " ";
-        height: 110%;
+        height: 100px;
         width: 100px;
         position: absolute;
         background-image: url("images/logo.png");
-        background-size: 80%;
+        background-size: 75%;
         background-position: top 0 left 5px;
         background-repeat: no-repeat;
         top: -10px;
@@ -363,5 +385,54 @@ li {
         border-bottom: 2px solid #D6BC65;
     }
     
+    .header {
+        color: red;
+    }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 15px auto;
+        background-color: white;
+        width: 100vw;
+    }
+
+    .news * {
+        width: 95%;
+        max-width: 700px;
+        margin: 5px 20vw 5px 0px;
+    }
+
+    .news h3,
+    .news h2{
+        margin-top: 25px;
+    }
+
+    .teyayaz-news {
+        position: absolute;
+        right: 0;
+        top: 140px;
+        width: 100%;
+        max-width: 500px;
+        margin: 5px 0;
+    }
+
+    .teyayaz-news img {
+        max-width: 300px;
+    }
+
+    .teyayaz-news h3 {
+        max-width: 300px;
+        margin: 0;
+    }
+
+    .cards-img-container {
+        margin: 10px 0;
+    }
+
+    .footer-icons {
+        max-width: 400px;
+    }
 
 }
