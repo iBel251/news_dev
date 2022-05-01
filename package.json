@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ethiopian-calendar-date-converter": "^1.0.2",
+    "ethiopian-date": "^0.0.6"
+  }
+}
