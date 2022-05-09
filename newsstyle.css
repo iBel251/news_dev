@@ -25,8 +25,12 @@ li {
 p {
     font-size: 18px;
     text-align: justify;
+    color: rgb(54, 53, 53);
+    
 }
-
+h1 {
+    border-bottom: 4px solid #D6BC65;
+}
 h3,
 h2 {
     margin-top: 20px;
@@ -103,6 +107,12 @@ h2 {
         display: none;
     }
 
+    .news h2,
+    .news h3 {
+        margin: 15px 15px 0;
+        border: 0.5px solid gray;
+        box-shadow: 2px 2px 2px gray;
+    }
     .navigation{
         display: flex;
         background-image: url("images/logo.png");
