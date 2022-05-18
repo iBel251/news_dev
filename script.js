@@ -5,6 +5,12 @@ fetch('/footer.html')
         footer.innerHTML = data
     })
 
+    const header = document.querySelector('.header');
+fetch('/header.html')
+.then(res=>res.text())
+.then(data=>{
+    header.innerHTML=data
+})
 var dt = new Date();
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const monthsEt = ["ታህሳስ", "ጥር", "የካርቲት", "መጋቢት", "ሚያዝያ", "ግንቦት", "ሰኔ", "ሃምሌ", "ነሃሴ", "መስከረም", "ጥቅምት", "ህዳር"];
@@ -39,3 +45,13 @@ var currentTime = dt.getHours() + ':' + dt.getMinutes();
 document.getElementsByClassName("date")[0].innerHTML = currentDate;
 document.getElementsByClassName("date")[1].innerHTML = currentDate;
 
+// const header = document.getElementsByClassName('header');
+// header.forEach((item) => {
+//     item.innerHTML = "";
+//     console.log(item);
+// })
+
+var elements = document.getElementsByClassName('header');
+Array.prototype.forEach.call(elements, function(element) {
+    element.innerHTML = 'Your text goes here';
+});
