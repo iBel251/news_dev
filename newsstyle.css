@@ -407,6 +407,7 @@ h2 {
         margin: 0 auto 15px auto;
         background-color: white;
         width: 100vw;
+        min-height: 1800px;
     }
 
     .news * {
