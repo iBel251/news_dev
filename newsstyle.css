@@ -17,11 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-li {
-    list-style-type: none;
-    margin: 5px auto;
-}
-
 p {
     font-size: 18px;
     text-align: justify;
@@ -62,6 +57,16 @@ h2 {
     margin: 15px auto;
     background-color: white;
     width: fit-content;
+}    
+
+.in-page-links {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.in-page-links li {
+    list-style-type:disc;
+    margin: 5px auto;
 }
 
 @media (max-width: 1000px){    
